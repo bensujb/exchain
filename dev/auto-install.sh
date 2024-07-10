@@ -42,7 +42,6 @@ getOSName() {
 
     echo "$os"
 }
-
 GetArchitecture() {
   _cputype="$(uname -m)"
   _ostype="$(uname -s)"
